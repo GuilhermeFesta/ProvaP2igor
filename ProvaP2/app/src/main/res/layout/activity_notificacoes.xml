@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_notificacoes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:text="Notificações"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🎮 Promoção: GTA 6 com 50% de desconto por tempo limitado!"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:background="#F3E5F5"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🛒 Carrinho: Você esqueceu itens no carrinho. Aproveite o frete grátis!"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:background="#E3F2FD"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="💬 Mensagem: Seu pedido foi aprovado! Agradecemos pela compra."
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:background="#FFF3E0"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⚡ Novidade: Novo jogo de corrida disponível na loja agora!"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:background="#E8F5E9"
+        android:layout_marginBottom="8dp" />
+</LinearLayout>
