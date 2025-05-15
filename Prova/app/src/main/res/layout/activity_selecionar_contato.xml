@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textoValorTransferencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Para quem você quer transferir?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Encontre um contato na sua lista ou inicie uma nova transferência"
+            android:textSize="14sp"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome, CPF/CNPJ ou chave Pix"
+            android:inputType="text"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contatos frequentes"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:backgroundTint="#EEEEEE"
+                    android:drawableBottom="@drawable/pessoa"
+                    android:paddingBottom="10dp"
+                    app:cornerRadius="50dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Prof. Igor"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:backgroundTint="#EEEEEE"
+                    android:drawableBottom="@drawable/pessoa"
+                    android:paddingBottom="10dp"
+                    app:cornerRadius="50dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Prof. Luiz"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Todos os contatos"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/contato_jair"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="8dp"
+                android:gravity="center_vertical">
+
+                <Button
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:backgroundTint="#EEEEEE"
+                    android:drawableBottom="@drawable/pessoa"
+                    android:paddingBottom="10dp"
+                    app:cornerRadius="50dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  Jair.M.Bolsonaro"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="8dp"
+                android:gravity="center_vertical">
+
+                <Button
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:backgroundTint="#EEEEEE"
+                    android:drawableBottom="@drawable/pessoa"
+                    android:paddingBottom="10dp"
+                    app:cornerRadius="50dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  Luiz Inacio Lula da Silva"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="8dp"
+                android:gravity="center_vertical">
+
+                <Button
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:backgroundTint="#EEEEEE"
+                    android:drawableBottom="@drawable/pessoa"
+                    android:paddingBottom="10dp"
+                    app:cornerRadius="50dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  Caixa 2"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,46 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FAF5FF"
+    android:name=".ValorTransferenciaActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qual é o valor da transferência?"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saldo disponível em conta R$ 1.000.000,00"
+        android:textSize="14sp"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/et_valor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="R$ 0,00"
+        android:inputType="numberDecimal"
+        android:textSize="24sp"
+        android:background="@android:color/transparent"
+        android:paddingBottom="8dp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btn_avancar"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#EEEEEE"
+        android:drawableBottom="@drawable/setalado"
+        android:paddingBottom="10dp"
+        app:cornerRadius="50dp"/>
+</LinearLayout>

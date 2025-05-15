@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/toolbar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:weightSum="4">
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Conta"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R$1.000.000,00"
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <Button
+                    android:id="@+id/btnPix"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:backgroundTint="#EEEEEE"
+                    android:drawableBottom="@drawable/pix"
+                    android:paddingBottom="10dp"
+                    app:cornerRadius="50dp"/>
+
+                <Button
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:backgroundTint="#EEEEEE"
+                    android:drawableBottom="@drawable/cartao"
+                    android:paddingBottom="10dp"
+                    app:cornerRadius="50dp"/>
+
+                <Button
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:backgroundTint="#EEEEEE"
+                    android:drawableBottom="@drawable/setacima"
+                    android:paddingBottom="10dp"
+                    app:cornerRadius="50dp"/>
+
+                <Button
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:backgroundTint="#EEEEEE"
+                    android:drawableBottom="@drawable/setabaixo"
+                    android:paddingBottom="10dp"
+                    app:cornerRadius="50dp"/>
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Meus Cartões"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/botao_arredondado"
+                android:paddingBottom="10dp"
+                app:cornerRadius="50dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Conheça Nubank Vida: um seguro simples e que cabe no bolso"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/botao_arredondado"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cartão de Crédito"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fatura Atual"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R$ 15.789"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Limite disponível de R$ 32.450,00"
+                android:layout_marginTop="2dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

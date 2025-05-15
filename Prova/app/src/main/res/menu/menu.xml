@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/olho" android:title="Olho" app:showAsAction="ifRoom"/>
+    <item android:icon="@drawable/cartao" android:title="Cartao" app:showAsAction="ifRoom"/>
+    <item android:icon="@drawable/envelope" android:title="" app:showAsAction="ifRoom"/>
+
+</menu>
